@@ -1,3 +1,5 @@
+import org.gradle.internal.impldep.com.fasterxml.jackson.core.JsonPointer.compile
+
 plugins {
     id("java")
 }
@@ -14,6 +16,6 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
-tasks.test {
+tasks.withType<Test> {
     useJUnitPlatform()
 }

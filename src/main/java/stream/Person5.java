@@ -1,4 +1,4 @@
-package Stream;
+package stream;
 
 public class Person5 {
     private String name;

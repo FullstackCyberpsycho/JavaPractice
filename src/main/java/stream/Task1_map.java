@@ -1,8 +1,4 @@
-package Stream;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+package stream;
 
 public class Task1_map {
     public static void main(String[] args) {
@@ -57,16 +53,16 @@ public class Task1_map {
         list<integer> strlength = str.stream().map(e -> e.length()).collect(collectors.tolist());
         system.out.println(strlength);
 
-        преобразуй список чисел, возведя каждое в квадрат.
+        преобразуй спис ок чисел, возведя каждое в квадрат.
         list<integer> nums = arrays.aslist(4,8,1,5,23,8,5,3);
         list<integer> numres = nums.stream().map(e -> e*e).collect(collectors.tolist());
         system.out.println(numres);*/
 
         /*✅ map():
         преобразуй список чисел, умножив каждое на 2.*/
-        list<integer> numbers = arrays.aslist(1, 2, 3, 4, 5);
-        list<integer> result = numbers.stream().map(el->el*2).collect(collectors.tolist());
-        system.out.println(result);
+//        list<integer> numbers = arrays.aslist(1, 2, 3, 4, 5);
+//        list<integer> result = numbers.stream().map(el->el*2).collect(collectors.tolist());
+//        system.out.println(result);
 
 
 
