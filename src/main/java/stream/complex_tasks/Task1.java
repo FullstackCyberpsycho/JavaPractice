@@ -1,9 +1,4 @@
-package Stream.Complex_tasks;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+package stream.complex_tasks;
 
 public class Task1 {
     public static void main(String[] args) {

@@ -1,8 +1,7 @@
-package Stream.Complex_tasks;
+package stream.complex_tasks;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Test_distinct {
     public static void main(String[] args) {

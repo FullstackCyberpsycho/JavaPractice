@@ -1,4 +1,4 @@
-package Stream.Complex_tasks;
+package stream.complex_tasks;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,6 +13,7 @@ public class UniqueWords {
     public static List<String> getUniqueWords(String text) {
         return Arrays.stream(text.split(" "))
                 .distinct()
-                .sorted().collect(Collectors.toList());
+                .sorted()
+                .collect(Collectors.toList());
     }
 }
