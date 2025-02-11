@@ -1,4 +1,4 @@
-package stream.complex_tasks;
+package Stream.Complex_tasks;
 
 import java.util.Arrays;
 import java.util.List;
