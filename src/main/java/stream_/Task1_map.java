@@ -68,9 +68,20 @@ public class Task1_map {
         list<integer> result = numbers.stream().map(el->el*2).collect(collectors.tolist());
         system.out.println(result);*/
 
+        /*
+        map() (Преобразование)
+        Задача: Дан список строк. Преобразовать все строки в верхний регистр.
+        Пример ввода: ["java", "stream", "api"]
+        Пример вывода: ["JAVA", "STREAM", "API"]
+🔹 Дополнительно: Возвести все числа в квадрат в списке [1, 2, 3, 4] → [1, 4, 9, 16].
 
 
+        List<String> str = Arrays.asList("java", "stream", "api");
+        List<String> res = str.stream().map(e -> e.toUpperCase()).collect(Collectors.toList());
+        System.out.println(res);
 
-
+        List<Integer> nums = Arrays.asList(1, 2, 3, 4);
+        List<Integer> res = nums.stream().map(e -> e*e).collect(Collectors.toList());
+        System.out.println(res);*/
     }
 }

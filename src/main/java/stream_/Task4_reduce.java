@@ -41,11 +41,22 @@ public class Task4_reduce {
 
         /*✅ reduce():
         Найди сумму всех элементов списка.
-         */
+
         List<Integer> numbers = Arrays.asList(10, 20, 30, 40);
         int sumNums = numbers.stream().reduce((a, e) -> a+e).get();
-        System.out.println(sumNums);
+        System.out.println(sumNums); */
 
+
+        /*
+        reduce() (Агрегация)
+        Задача: Найти сумму всех чисел в списке.
+        Пример ввода: [1, 2, 3, 4, 5]
+        Пример вывода: 15
+        🔹 Дополнительно: Найти произведение всех чисел в списке.
+
+        List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5);
+        int res = nums.stream().reduce(0, (a, e) -> a+e);
+        System.out.println(res);*/
 
     }
 }

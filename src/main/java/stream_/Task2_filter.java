@@ -88,10 +88,31 @@ public class Task2_filter {
 
         /*✅ filter():
         Оставь в списке только те строки, которые начинаются с "J".
-         */
+
         List<String> words = Arrays.asList("Java", "Python", "JavaScript", "C++");
         List<String> words2 = words.stream().filter(el -> el.charAt(0) == 'J').collect(Collectors.toList());
-        System.out.println(words2);
+        System.out.println(words2);*/
+
+        /*
+        filter() (Фильтрация)
+        Задача: Дан список чисел. Оставить только положительные числа.
+        Пример ввода: [3, -1, 4, -2, 0, 7]
+        Пример вывода: [3, 4, 7]
+🔹 Дополнительно: Оставить только строки, начинающиеся на букву "A" в списке строк.
+
+
+        List<Integer> nums = Arrays.asList(3, -1, 4, -2, 0, 7);
+        List<Integer> res = nums.stream().filter(e -> e > 0).collect(Collectors.toList());
+        System.out.println(res);
+
+        List<String> str = Arrays.asList("dssidna", "adosjd", "trf", "Amdsos", "sla", "amx");
+        List<String> res = str.stream().
+                filter(e -> e.charAt(0) == 'A' || e.charAt(0) == 'a')
+                .collect(Collectors.toList());
+        System.out.println(res);*/
+
+
+
 
 
     }

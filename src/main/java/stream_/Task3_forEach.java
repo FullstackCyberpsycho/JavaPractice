@@ -38,9 +38,22 @@ public class Task3_forEach {
 
         /*✅ forEach():
         Выведи в консоль каждый элемент списка с восклицательным знаком.
-         */
+
         List<String> words = Arrays.asList("Hello", "World", "Java");
-        words.stream().forEach(el -> System.out.println(el + "!"));
+        words.stream().forEach(el -> System.out.println(el + "!"));*/
+
+        /*
+        forEach() (Перебор)
+        Задача: Дан список имён. Вывести каждое имя в консоль.
+        Пример ввода: ["Alice", "Bob", "Charlie"]
+        Вывод в консоли:
+        Alice
+        Bob
+        Charlie
+🔹 Дополнительно: Добавить в вывод строку "Привет, " перед каждым именем.
+
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
+        names.stream().forEach(e -> System.out.println("Привет, " + e)); */
 
     }
 }
